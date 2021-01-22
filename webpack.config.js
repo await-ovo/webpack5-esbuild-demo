@@ -1,4 +1,4 @@
-const ESBuildWebpackPlugin = require('./esbuild-webpack-plugin/dist/index').default;
+const ESBuildWebpackPlugin = require('esbuild-webpack-plugin').default;
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   "mode": "production",
@@ -22,7 +22,6 @@ module.exports = {
     runtimeChunk: {
       name: entrypoint => `runtime~${entrypoint.name}`
     }
-    
   },
   plugins: [
     new HtmlWebpackPlugin({

@@ -2117,10 +2117,10 @@ esbuild-webpack-plugin@^1.1.0:
   dependencies:
     esbuild "^0.7.15"
 
-esbuild@^0.7.15, esbuild@^0.8.34:
-  version "0.8.34"
-  resolved "http://bnpm.byted.org/esbuild/-/esbuild-0.8.34.tgz#16b4ac58f74c821d2c5a8c2f0585ca96a38ab4e6"
-  integrity sha1-FrSsWPdMgh0sWowvBYXKlqOKtOY=
+esbuild@^0.7.15:
+  version "0.7.22"
+  resolved "http://bnpm.byted.org/esbuild/-/esbuild-0.7.22.tgz#9149b903f8128b7c45a754046c24199d76bbe08e"
+  integrity sha1-kUm5A/gSi3xFp1QEbCQZnXa74I4=
 
 escalade@^3.1.1:
   version "3.1.1"
