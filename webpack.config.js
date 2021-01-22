@@ -1,4 +1,4 @@
-const ESBuildWebpackPlugin = require('./esbuild-webpack-plugin/dist/index').default;
+const ESBuildWebpackPlugin = require('./esbuild-webpack-plugin/index').default;
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   "mode": "production",
