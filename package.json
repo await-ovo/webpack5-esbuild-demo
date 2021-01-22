@@ -1,0 +1,23 @@
+{
+  "name": "test-svgr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf node_modules/.cache && rm -rf dist && webpack",
+    "start": "cd dist && http-server"
+  },
+  "dependencies": {
+    "@svgr/webpack": "^5.5.0",
+    "esbuild-webpack-plugin": "^1.1.0",
+    "html-webpack-plugin": "^5.0.0-beta.6",
+    "react": "^17.0.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.16.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "resolutions": {
+    "esbuild": "^0.8.34"
+  }
+}
